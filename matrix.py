@@ -1,9 +1,16 @@
 import numpy as np
 
 # 1×4行列
-a=np.array([1,2,3,4])
-print(a)
+A=np.array([1,2,3,4])
+print(A)
 
 # 3×1行列
-b=np.array([[4],[-1],[6]])
-print(b)
+B=np.array([[4],[-1],[6]])
+print(B)
+
+# 3×4行列
+C=np.array([
+  [3,-2,0,1],
+  [7,1,-1,2],
+  [4,-5,1,3]])
+print(C)
