@@ -1,7 +1,7 @@
 import numpy as np
 
 # 1×4行列
-A=np.array([1,2,3,4])
+A=np.array([[1,2,3,4]])
 print(A)
 
 # 3×1行列
