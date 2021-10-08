@@ -22,3 +22,11 @@ print(D)
 # 4×1の要素が全て1の行列
 E=np.ones((4,1))
 print(E)
+
+# 単位行列
+F=np.eye(3)
+print(F)
+
+# 対角行列(?)
+G=np.eye(3,4)
+print(G)
